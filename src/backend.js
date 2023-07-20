@@ -9,7 +9,7 @@ const app  = express()
 app.use(cors())
 app.use(express.json())
 
-
+//cors intgrated
 
 const API_KEY = process.env.OPENAI_API_KEY
 
